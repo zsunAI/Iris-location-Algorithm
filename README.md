@@ -10,6 +10,7 @@
     实验主要比较两种算法能否准确地定位出虹膜的内、外边缘。一个精确的算法要求标记的边界与内外边界吻合，既不存在边界的偏移也不出现过分割欠分割的情况，能准确定位出内外边界轮廓。由于篇幅所限，本文仅采用3组定位后的图像来进行说明。其结果如下图1所示。
 图1表示采集的虹膜原始图像经过算法定位之后的几种典型的例图。这些图中是以高亮的方式显示定位的瞳孔和虹膜的边界情况。从中可以看出，原始图像中存在的干扰因素是多样的。图1(a)～图1(c)是利用Daugman算法进行定位的结果，而图1(d)～图1(f)则分别是利用本文算法对以上3幅原始图像进行定位的结果。
 ![image](https://github.com/1579477793/Iris-location-Algorithm/picture/a.bmp)
+![image](https://github.com/1579477793/Iris-location-Algorithm/blob/master/picture/a.bmp)
 (a)                 
 ![image](https://github.com/1579477793/Iris-location-Algorithm/picture/b.bmp)
 (b)               
